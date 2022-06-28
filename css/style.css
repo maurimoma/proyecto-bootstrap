@@ -12,3 +12,19 @@
 .encabezado span{
     font-weight: 600;
 }
+.logo_menu{
+    width: 10%;
+}
+.bg-light{
+    background-color: black;
+}
+.foto_encabezado{
+    width: 60%;
+}
+.apertura__icono{
+    width: 6%;
+}
+.encabezado{
+    background-color: black;
+    color: white;
+}
