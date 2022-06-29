@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Maquetando con Bootstrap</title>
+</head>
+<body>
+    <header>
+        <div class="row container-fluid" >
+          <div class="col anuncio tet text-center">Lorem ipsum dolor sit <span> amet consectetur adipisicing </span> elit. Praesentium, accusamus.
+        </div>
+        <div class="row container-fluid menu pt-5">
+          <div class="col-4">
+            <a class="navbar-brand" href="../index.html"><img class="logo_menu" src="../img/logo.png" alt="Logo SC 3D"></a>
+          </div>
+          <div class="col-8 container_fluid menu">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Negocio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="./3d.html">3D</a></li>
+                          <li><a class="dropdown-item" href="./multifuncion.html">Multifunción</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./3d.html">3D</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./multifuncion.html">Multifunción</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                      </li>
+                      </ul>
+                  </div>
+                </div>
+              </nav>
+          </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <section class="row pt-5 pb-5 apertura">
+            <div class="col-6 justify-content-center">
+                <h3>Lit amet consectetur</h3>
+                <h2>Lit amet <span>consectetur</span></h2>
+                <img class="equipos__info--icono" src="../img/icon_battery.png" alt="Icono bateria">
+                <button type="button" class="btn btn-outline-dark">Botón</button>
+                <button type="button" class="btn btn-outline-dark">Botón</button>
+            </div>
+            <div class="col-6">
+                <img class="apertura_foto" src="../img/ender_51.jpg" alt="Impresora Ender">
+            </div>
+        </section>
+        <section class="row pt-5 pb-5 items">
+            <div class="col-4 item1">
+                <img class="reseñas__icono" src="../img/icon_battery.png" alt="">
+                <h3>Lorem ipsum meter</h3>
+                <p>Lorem impsum meter lorem ipsum meter lorem pimsum meter</p>
+            </div>
+            <div class="col-4 item2">
+                <img class="reseñas__icono" src="../img/icon_battery.png" alt="">
+                <h3>Lorem ipsum meter</h3>
+                <p>Lorem impsum meter lorem ipsum meter lorem pimsum meter</p>
+            </div>
+            <div class="col-4 item3">
+                <img class="reseñas__icono" src="../img/icon_battery.png" alt="">
+                <h3>Lorem ipsum meter</h3>
+                <p>Lorem impsum meter lorem ipsum meter lorem pimsum meter</p>
+            </div>
+        </section>
+        <h1>Nuestros Equipos Multifunción</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/ender_3v2.png" class="d-block w-100" alt="Multifuncion 1">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/ender_5.jpg" class="d-block w-100" alt="Multifuncion 2">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/ender_51.jpg" class="d-block w-100" alt="Multifuncion 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <footer class="container-fluid pt-5">
+        <section class="row">
+          <div class="col-6 footer_menu">
+            <h2>A subtitle</h2>
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+          </div>
+          <div class="col-6 footer_buscador">
+            <h2>A subtitle</h2>
+              <form>
+                  <label for=""></label>
+                  <input type="email" placeholder="Search">
+                  <input type="submit"
+              </form>
+          </div>
+        </section>
+        <div class="row">
+          <div col-4 linkedin>
+            <i class="bi-linkedin"></i>
+          </div>
+          <div col-4 instagram>
+            <i class="bi-instagram"></i>
+          </div>
+          <div col-4 youtube>
+            <i class="bi-youtube"></i>
+          </div>
+        </div>
+        <div>
+          <button type="button" class="btn btn-outline-dark">Botón</button>
+        </div>
+      </footer>
+      <script src="../js/bootstrap.js"></script>
+    </body>
+    </html> 

@@ -49,3 +49,20 @@ footer{
 .reseñas__icono{
     width: 8%;
 }
+h1{
+    text-align: center;
+    padding-top: 10%;
+}
+.slide_3d{
+    background-color: black;
+    color: white;
+    width: 100vw;
+}
+.nosotros_reseñas{
+    background-color: black;
+    color: white;
+    width: 100vw;
+}
+.nosotros__destacado--icono1{
+    width: 5%;
+}
