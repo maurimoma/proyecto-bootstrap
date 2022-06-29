@@ -30,3 +30,22 @@ footer{
     background-color: black;
     color: white;
 }
+
+/* SECCION 3D */
+.equipos__info--icono{
+    width: 4%;
+}
+.apertura{
+    background-color: black;
+    color: white;
+}
+.apertura_foto{
+    width: 50%;
+}
+.items{
+    background-color: yellow;
+    color: black;
+}
+.reseñas__icono{
+    width: 8%;
+}
